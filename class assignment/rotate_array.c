@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include<stdlib.h>
-#include<string.h>
 int main(void) {
 int t,j,i,n,k,s[20];
 scanf("%d %d",&n,&k);
@@ -10,13 +8,13 @@ scanf("%d",&s[i]);
 }
 
 for(i=0;i<k;i++)
-{	t=s[0];
-	for( j=1;j<=n;j++)
+{		t=s[0];
+	for( j=0;j<n;j++)
 	{
-		
-		s[j-1]=s[j];
 	
-	}	s[j-1]=t;
+		s[j]=s[j+1];
+	
+	}	s[n-1]=t;
 		
 
 	
