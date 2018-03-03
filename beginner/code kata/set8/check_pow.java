@@ -17,9 +17,7 @@ class Ideone
 		int i,j,c=0;
 		for(i=2;i<p;i++)
 		{
-			for(j=1;j<p;j++)
-			{
-			if(p==Math.pow(i,j))
+			if(p==Math.pow(i,2))
 			{
 			c=1;
 			break;
