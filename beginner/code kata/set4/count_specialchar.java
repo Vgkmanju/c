@@ -10,16 +10,16 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner s=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		int count=0,i;
-		String n=s.nextLine();
+		String n=sc.nextLine();
 		int l=n.length();
 		for(i=0;i<l;i++)
 		{
 			if(n.charAt(i)>='0'&&n.charAt(i)<='9')
-			count++;
+			count1++;
 		}
-				System.out.println(count);
+				System.out.println(count1);
 				
 		
 	}
