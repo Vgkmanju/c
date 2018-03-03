@@ -20,7 +20,7 @@ class Ideone
 		{
 			c++;
 		}
-		}System.out.println(c);
+		}
 		if(c==l)
 		{
 			System.out.println("yes");
