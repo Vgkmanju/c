@@ -14,9 +14,18 @@ class Ideone
 	    int b=s.nextInt();
 	    StringBuilder d=new StringBuilder(a).reverse();
 	    String x=d.toString();
+	  
 	    char c[]=x.toCharArray();
+	    char y[]=new char[b];
 	for(int i=0;i<b;i++){
-		System.out.print(c[i]);}
+		y[i]=c[i];
+		
+	}
+	for(int i=b-1;i>=0;i--){
+		
+	System.out.print(y[i]);	
+	}	
+		
 
 	}
 	
