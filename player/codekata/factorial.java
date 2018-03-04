@@ -13,7 +13,7 @@ class Ideone
 		int fact=1;
 		Scanner s=new Scanner(System.in);
 		int a=s.nextInt();
-		for(int i=1;i<=5;i++)
+		for(int i=1;i<=a;i++)
 		{
 		fact=fact*i;	
 		}
